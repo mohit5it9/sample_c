@@ -11,6 +11,7 @@ build:
   ci:
     - ./configure && make && make install
     - ./hello
-
+    - sleep 5m
+    
   post_ci:
     - echo "true"
