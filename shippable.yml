@@ -10,7 +10,7 @@ build:
     - uname -a
     - echo 'hello'
     - pwd
-    - pwd
+    #- pwd
 
   ci:
     - ./configure && make && make install
