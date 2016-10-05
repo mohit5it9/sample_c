@@ -7,6 +7,7 @@ compiler:
 build:
   pre_ci:
     - echo 'true'
+    - uname -a
 
   ci:
     - ./configure && make && make install
