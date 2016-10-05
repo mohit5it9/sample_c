@@ -8,6 +8,7 @@ build:
   pre_ci:
     - echo 'true'
     - uname -a
+    - pwd
 
   ci:
     - ./configure && make && make install
