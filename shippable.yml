@@ -9,7 +9,7 @@ build:
     - echo 'true'
     - uname -a
     - echo 'hello'
-    - pwd
+    #- pwd
     
 
   ci:
