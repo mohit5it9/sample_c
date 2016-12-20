@@ -17,6 +17,7 @@ build:
     
 
   ci:
+    - echo "$foo"
     - ./configure && make && make install
     - ./hello
     
