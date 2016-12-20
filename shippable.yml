@@ -6,7 +6,8 @@ compiler:
 
 env:
   global:
-    - foo="&"
+    - foo=&
+    - foo2="hello"
 
 build:
   pre_ci:
@@ -18,6 +19,7 @@ build:
 
   ci:
     - echo "$foo"
+    - echo "$foo2"
     - ./configure && make && make install
     - ./hello
     
