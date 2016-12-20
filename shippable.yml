@@ -6,7 +6,7 @@ compiler:
 
 env:
   matrix:
-    - foo='hi'i'
+    - foo="hi"i"
     - foo2="hello"
 
 build:
