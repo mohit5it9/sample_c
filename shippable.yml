@@ -5,8 +5,8 @@ compiler:
   #- clang
 
 env:
-  global:
-    - foo=&
+  matrix:
+    - foo=&&
     - foo2="hello"
 
 build:
