@@ -6,7 +6,7 @@ compiler:
 
 env:
   global:
-    -foo:bar
+    - foo=bar
 
 build:
   pre_ci:
