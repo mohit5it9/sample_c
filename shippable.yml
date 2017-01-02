@@ -6,7 +6,7 @@ compiler:
 
 env:
   matrix:
-    - foo="hi"i"
+    #- foo=
     #- foo2="hello"
 
 build:
@@ -18,8 +18,8 @@ build:
     
 
   ci:
-    - echo "$foo"
-    - echo "$foo2"
+    #- echo "$foo"
+    #- echo "$foo2"
     - ./configure && make && make install
     - ./hello
     
