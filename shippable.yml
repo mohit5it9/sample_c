@@ -5,7 +5,7 @@ compiler:
   #- clang
 env:
   matrix:
-    #- foo=
+    #- foo
 
 build:
   pre_ci:
