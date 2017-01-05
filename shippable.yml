@@ -6,7 +6,6 @@ compiler:
 env:
   matrix:
     #- foo
-
 build:
   pre_ci:
     - echo 'true'
