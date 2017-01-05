@@ -3,7 +3,6 @@ language: c
 compiler:
   - gcc
   #- clang
-
 env:
   matrix:
     #- foo=
