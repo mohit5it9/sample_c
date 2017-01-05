@@ -8,7 +8,6 @@ env:
   matrix:
     #- foo=
 
-#- foo2="hello"
 build:
   pre_ci:
     - echo 'true'
