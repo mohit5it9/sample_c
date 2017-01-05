@@ -14,7 +14,7 @@ build:
     - echo 'true'
     - uname -a
     - df -h
-    - echo 'hello'
+    #- echo 'hello'
     #- pwd
     
 
