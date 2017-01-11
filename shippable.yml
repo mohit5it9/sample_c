@@ -12,6 +12,7 @@ build:
     - echo 'true'
     - uname -a
     - df -h
+    - blah blah
     #- echo 'hello'
     #- pwd
     
