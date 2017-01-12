@@ -12,7 +12,7 @@ build:
     - echo 'true'
     - uname -a
     - df -h
-    #- blah blah
+    - blah blah
     #- echo 'hello'
     #- pwd
     
