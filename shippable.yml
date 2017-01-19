@@ -2,7 +2,7 @@ language: c
 
 compiler:
   - gcc
-  - clang
+  #- clang
 env:
   matrix:
     #- foo=
