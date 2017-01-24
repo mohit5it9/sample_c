@@ -14,7 +14,7 @@ build:
     - uname -a
     - df -h
     #- echo 'hello'
-    #- pwd
+    - pwd
     
 
   ci:
