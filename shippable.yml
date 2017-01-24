@@ -13,7 +13,7 @@ build:
     - uname -a
     - df -h
     #- blah blah
-    #- echo 'hello'
+    - echo 'hello'
     #- pwd
     
 
