@@ -14,7 +14,7 @@ build:
     - df -h
     #- blah blah
     - echo 'hello'
-    #- pwd
+    - pwd
     
 
   ci:
