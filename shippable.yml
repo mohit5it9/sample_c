@@ -11,7 +11,7 @@ build:
   pre_ci:
     - echo 'true'
     - uname -a
-    - df -h
+    #- df -h
     #- blah blah
     - echo 'hello'
     - pwd
