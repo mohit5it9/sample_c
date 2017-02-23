@@ -16,7 +16,6 @@ build:
     - echo 'hello'
     - pwd
     
-
   ci:
     #- echo "$foo"
     #- echo "$foo2"
