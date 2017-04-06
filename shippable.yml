@@ -24,3 +24,19 @@ build:
     
   post_ci:
     - echo "true"
+
+integrations:
+#   generic:
+#     - integrationName: "key-value"
+   notifications:
+     - integrationName: irc
+       type: irc
+       recipients:
+        - "chat.freenode.net#test-rc"
+        - "webchat.irchighway.net#test-rc"
+       on_start: always
+       on_success: always
+       on_failure: always
+       on_pull_request: always
+ 
+
